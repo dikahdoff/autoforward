@@ -1,0 +1,7 @@
+### AUTO-FORWARD CONFIG ###
+
+forward:
+  # Is this feature enabled?
+  enabled: true
+  # Which server should we auto-send players to
+  server: smp
