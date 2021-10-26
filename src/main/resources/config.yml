@@ -3,5 +3,23 @@
 forward:
   # Is this feature enabled?
   enabled: true
-  # Which server should we auto-send players to
+
+  # Should it run on login (true) or when a player logs in
+  trigger-on-login: true
+
+  # Delay (in ticks [20 ticks = 1 seconds]) to wait before action
+  delay: 0
+
+  # What to do on login
+  #   Available values:
+  #     - 0 will redirect you to the set server below
+  #     - 1 will run the command set below as the player
+  method: 0
+
+  # If bungee is selected above, which server should we auto-send players to
   server: smp
+  # If command is selected above, which command to run as player on login
+  command: /server smp
+
+# Don't touch this
+config-version: 1

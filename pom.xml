@@ -6,7 +6,7 @@
 
     <groupId>me.bisquit</groupId>
     <artifactId>autoforward</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
 
     <name>AutoForward</name>

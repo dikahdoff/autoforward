@@ -7,4 +7,3 @@ authors: [ dikahdoff ]
 description: Automatically forwards players to a specific server after login.
 website: https://bisquit.me/p/autoforward
 load: STARTUP
-depend: [ AuthMe ]
